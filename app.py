@@ -87,7 +87,7 @@ def main():
     st.title("LXRα PREDICTOR")
 
     st.subheader("This app predicts the binding potential of the chemical compounds towards Liver X receptor-alpha (LXRα) as per fingerprint-based model")
-    st.write("Input a SMILES notation of a chemical compound to predict its activity.")
+    st.write("Input single or multiple (separated by comma) SMILES notation(s) of chemical compound(s) to predict activity.")
 
     # Input SMILES notation
     smi = st.text_input("Enter SMILES Notation:", "")
