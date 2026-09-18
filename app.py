@@ -84,9 +84,9 @@ def plot_similarity_map(mol, model):
 
 # Streamlit application
 def main():
-    st.title("LXR-alpha PREDICTOR")
+    st.title("LXRα PREDICTOR")
 
-    st.subheader("This app predicts the binding potential of the chemical compounds towards Liver X receptors (LXR) as per fingerprint-based model")
+    st.subheader("This app predicts the binding potential of the chemical compounds towards Liver X receptor-alpha (LXRα) as per fingerprint-based model")
     st.write("Input a SMILES notation of a chemical compound to predict its activity.")
 
     # Input SMILES notation
