@@ -128,8 +128,8 @@ def main():
                fig=res.GetDrawingText()
                st.image(fig)
                st.markdown("**Colour scheme:**")
-               st.markdown('<span style="color:green">The fragments of the molecule that increase the binding potential of the compound</span>', unsafe_allow_html=True)
-               st.markdown('<span style="color:red">The fragments of the molecule that decrease the binding potential of the compound</span>', unsafe_allow_html=True)
+               st.markdown('<span style="color:green">Molecular environments that increase predicted probability of class 1 (Active)</span>', unsafe_allow_html=True)
+               st.markdown('<span style="color:red">Molecular environments that decrease predicted probability of class 0 (Inctive)</span>', unsafe_allow_html=True)
 
 
 
